@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".Index">
+    <Button
+            android:id="@+id/btn_student"
+            android:text="Student"
+            android:layout_marginTop="270dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"/>
+    <Button
+            android:id="@+id/btn_pegawai"
+            android:text="Pegawai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_student"/>
+    <Button
+            android:id="@+id/btn_inventaris"
+            android:text="Inventaris"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_student"
+            android:layout_marginTop="51dp"/>
+    <Button
+            android:id="@+id/btn_guru"
+            android:text="Guru"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_student"
+            android:layout_marginTop="100dp"/>
+
+</RelativeLayout>
